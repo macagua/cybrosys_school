@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Students -->
+        <record model="school.student" id="student1">
+            <field name="name">Miguel Angel Tirado Caballero</field>
+            <field name="age" eval="3"/>
+            <!-- no photo for this one -->
+            <field name="gender">male</field>
+            <field name="student_dob" eval="time.strftime('%Y-%m-%d')"/>
+            <field name="student_blood_group">B+</field>
+            <field name="nationality" ref="base.ve"/>
+        </record>
+        <record model="school.student" id="student2">
+            <field name="name">Diego Alejandro Tirado Caballero</field>
+            <field name="age" eval="1"/>
+            <!-- <field name="photo"></field> -->
+            <field name="gender">male</field>
+            <field name="student_dob">2017-01-01</field>
+            <field name="student_blood_group">B+</field>
+            <field name="nationality" ref="base.cl"/>
+        </record>
+
+    </data>
+</odoo>
