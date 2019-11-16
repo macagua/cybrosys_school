@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+
+        <!-- window action start -->
+        <!-- students action window -->
+        <record id="student_menu_action" model="ir.actions.act_window">
+            <field name="name">Students</field>
+            <field name="res_model">school.student</field>
+            <field name="view_mode">tree,form</field>
+            <field name="domain">[]</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                    Create The First Student
+                </p>
+            </field>
+        </record>
+        <!-- window action end -->
+
+        <!-- menu start -->
+        <!-- top level menu: no parent -->
+        <menuitem id="school_menu"
+                  name="School"
+                  groups="base.group_user"/>
+
+        <!-- the following menuitem should appear *after*
+             its parent 'school_menu' and *after* its
+             action 'student_menu_action' -->
+        <menuitem id="school_student_menu"
+                  parent="school_menu"
+                  name="Students"
+                  groups="base.group_user"
+                  action="student_menu_action"/>
+        <!-- menu end -->
+    </data>
+</odoo>
