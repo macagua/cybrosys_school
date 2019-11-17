@@ -8,6 +8,13 @@
             <field name="model">school.student</field>
             <field name="arch" type="xml">
                 <form string="Student">
+                    <header>
+                        <button name="button_done" string="Done" class="oe_highlight" type="object"/>
+                        <button name="button_reset" string="Reset to Draft" states="done,cancel"
+                                class="oe_highlight" type="object"/>
+                        <button name="button_cancel" string="Cancel" type="object"/>
+                        <field name="state" widget="statusbar" statusbar_visible="draft,done"/>
+                    </header>
                     <sheet>
                         <field name="photo" widget="image" class="oe_left oe_avatar" />
                         <div class="oe_title">

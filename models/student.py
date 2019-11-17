@@ -13,6 +13,18 @@ class Student(models.Model):
     # default order field for searching results
     _order = 'name'
 
+    def button_done(self):
+        for rec in self:
+            rec.write({'state': 'done'})
+
+    def button_reset(self):
+        for rec in self:
+            rec.state = 'reset'
+
+    def button_cancel(self):
+        for rec in self:
+            rec.write({'state': 'cancel'})
+
     name = fields.Char(string='Name', required=True, track_visibility=True)
     age = fields.Integer(string='Age', track_visibility=True)
     photo = fields.Binary(string='Image')
@@ -25,3 +37,9 @@ class Student(models.Model):
          ('A-', 'A-ve'), ('B-', 'B-ve'), ('O-', 'O-ve'), ('AB-', 'AB-ve')],
         string='Blood Group')
     nationality = fields.Many2one('res.country', string='Nationality')
+    state = fields.Selection([
+        ('draft', 'Draft'),
+        ('done', 'Done'),
+        ('reset', 'Reset'),
+        ('cancel', 'Cancelled'),
+    ], required=True, default='draft')
