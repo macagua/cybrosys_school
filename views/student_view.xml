@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <data>
+        <!-- views start -->
+        <!-- student tree/list view -->
+        <record id="student_tree_view" model="ir.ui.view">
+            <field name="name">school.tree</field>
+            <field name="model">school.student</field>
+            <field name="arch" type="xml">
+                <tree string="Student Tree">
+                    <field name="name"/>
+                    <field name="age"/>
+                    <field name="gender"/>
+                    <field name="student_dob"/>
+                    <field name="student_blood_group"/>
+                    <field name="nationality"/>
+                </tree>
+            </field>
+        </record>
+        <!-- views end -->
 
         <!-- window action start -->
         <!-- students action window -->
