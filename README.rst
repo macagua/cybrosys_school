@@ -95,6 +95,9 @@ References
 
 - `How to Create a Module in Odoo 12 <https://www.cybrosys.com/blog/how-to-create-module-in-odoo12>`_.
 
+- `How to Create Module in Odoo v12 - Search View and Filters <https://www.cybrosys.com/blog/building-module-in-odoo-v12-defining-search-view-and-filters>`_.
+
+
 .. |Twitter| image:: https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fmacagua%2Fcybrosys_school
    :target: https://twitter.com/intent/tweet?text=Download%20and%20use%20%27cybrosys_school%27%20package%20for%20doing%20Python%20trainings%20in%20Venezuela%20%F0%9F%87%BB%F0%9F%87%AA%20https://github.com/macagua/cybrosys_school
 

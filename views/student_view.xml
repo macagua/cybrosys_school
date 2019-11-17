@@ -17,6 +17,29 @@
                 </tree>
             </field>
         </record>
+
+        <!-- student search view -->
+        <record id="student_search_view" model="ir.ui.view">
+            <field name="name">Students Search View</field>
+            <field name="model">school.student</field>
+            <field name="arch" type="xml">
+                <search string="Search Student">
+                    <field name="name"/>
+                    <field name="age"/>
+                    <field name="nationality"/>
+                    <filter string="Male" name="male" domain="[('gender','=','male')]"
+                            help="Students with gender as Male"/>
+                    <filter string="Female" name="female" domain="[('gender','=','female')]"
+                            help="Students with gender as Female"/>
+                    <filter string="Others" name="others" domain="[('gender','=','others')]"
+                            help="Students with gender as Others"/>
+                    <group expand="1" string="Group By">
+                        <filter string="Nationality" name="nationality" context="{'group_by':'nationality'}"/>
+                        <filter string="Blood Group" name="blood_group" context="{'group_by':'student_blood_group'}"/>
+                    </group>
+                </search>
+            </field>
+        </record>
         <!-- views end -->
 
         <!-- window action start -->
@@ -25,6 +48,8 @@
             <field name="name">Students</field>
             <field name="res_model">school.student</field>
             <field name="view_mode">tree,form</field>
+            <field name="search_view_id" ref="student_search_view"/>
+            <field name="context">{'search_default_male': 1}</field>
             <field name="domain">[]</field>
             <field name="help" type="html">
                 <p class="oe_view_nocontent_create">
