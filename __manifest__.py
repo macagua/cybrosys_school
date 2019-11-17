@@ -11,16 +11,17 @@
     'company': 'Cybrosys Techno Solutions',
     'website': 'https://www.cybrosys.com',
     'license': 'AGPL-3',
-    'depends': ['base', 'mail'],
+    'depends': ['base', 'mail', 'sale_management'],
     'data': [
         'security/ir.model.access.csv',
+        'views/sale_order_view.xml',
         'views/student_view.xml',
     ],
     'demo': [
         'demo/demo.xml',
     ],
+    'images': ['static/description/icon.png'],
     'installable': True,
     'application': False,
     'auto_install': False,
-    'images': ['static/description/icon.png'],
 }

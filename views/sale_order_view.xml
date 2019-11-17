@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Inherit Form View to Modify it -->
+        <record id="view_order_form_inherit" model="ir.ui.view">
+            <field name="name">Sale Order Custom</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_order_form"/>
+            <field name="arch" type="xml">
+                <!-- Add new field after 'date_order' field -->
+                <xpath expr="//field[@name='date_order']" position="after">
+                    <field name="additional_note"/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

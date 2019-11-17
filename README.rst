@@ -101,6 +101,8 @@ References
 
 - `How to Add Chatter to Form View in Odoo v12 <https://www.cybrosys.com/blog/how-to-add-chatter-to-form-view-in-odoo-v12>`_.
 
+- `How to Add Custom Fields to Existing Views in Odoo v12 <https://www.cybrosys.com/blog/adding-custom-fields-to-existing-views-in-odoo-v12>`_.
+
 .. |Twitter| image:: https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fmacagua%2Fcybrosys_school
    :target: https://twitter.com/intent/tweet?text=Download%20and%20use%20%27cybrosys_school%27%20package%20for%20doing%20Python%20trainings%20in%20Venezuela%20%F0%9F%87%BB%F0%9F%87%AA%20https://github.com/macagua/cybrosys_school
 
