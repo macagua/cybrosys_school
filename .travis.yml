@@ -76,7 +76,7 @@ env:
   - WKHTMLTOPDF_VERSION="0.12.5"
   # Set the above to install a `wkhtmltopdf` version that is not the one provided
   # by the `pov-wkhtmltopdf` repo.
-  - PHANTOMJS_VERSION="latest"
+  # - PHANTOMJS_VERSION="latest"
   # The above line controls the PhantomJS version that is used for JS testing.
   #   It is not necessary to include this value unless you are altering the default.
   #   Use `OS` to skip the PhantomJS upgrade & use the system version instead.
