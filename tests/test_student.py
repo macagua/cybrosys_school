@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 
+import logging
 from odoo.tests import common
+
+_logger = logging.getLogger(__name__)
 
 
 class TestStudent(common.TransactionCase):
@@ -50,5 +53,5 @@ class TestStudent(common.TransactionCase):
         self.assertEqual(self.student1.level_education, 'primary')
 
         # Do a little print to show it visually for this demo - in production you don't really need this.
-        print('Your test was succesfull!')
+        _logger.info('Your test was succesfull!')
 
