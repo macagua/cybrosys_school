@@ -70,6 +70,9 @@ coverage.xml
 # coveralls.io reports
 !.coveralls.yml
 
+# pre-commit hooks settings
+!.pre-commit-hooks.yaml
+
 # Translations
 *.mo
 *.pot
