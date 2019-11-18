@@ -40,7 +40,7 @@ jobs:
     # use this linting job repos that use pre-commit (mandatory for >= 13)
     - stage: linting
       name: "pre-commit"
-      python: "3.6"  # Black requires python >= 3.6
+      python: "3.7"  # Black requires python >= 3.6
       install: pip install pre-commit
       script: pre-commit run --all --show-diff-on-failure
       after_success:
