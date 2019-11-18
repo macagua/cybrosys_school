@@ -9,3 +9,4 @@ class SaleOrder(models.Model):
 
     # new field to add to 'sale.order' model after of the 'date_order' field
     additional_note = fields.Char(string='Additional Note')
+

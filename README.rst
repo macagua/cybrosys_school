@@ -123,6 +123,17 @@ Then go to Main menu at left top corner and click to **School** > **Students** a
     Access 'Manage Students' from School App
 
 
+Testing
+=======
+
+For run the module tests, with the following command:
+
+::
+
+    $ /full/path/to/odoo-bin --addons-path=/full/path/to/addons,/full/path/to/extra-addons \
+      -d t -i cybrosys_school --test-enable --stop-after-init --log-level=test
+
+
 Contribute
 ==========
 
@@ -151,3 +162,8 @@ References
 - `How to Add Custom Fields to Existing Views in Odoo v12 <https://www.cybrosys.com/blog/adding-custom-fields-to-existing-views-in-odoo-v12>`_.
 
 - `How to Define Header, Statusbar, and Buttons in Odoo v12 <https://www.cybrosys.com/blog/defining-header-statusbar-and-buttons-in-odoo-v12>`_.
+
+- `Automated testing in Odoo <https://www.surekhatech.com/blog/automated-testing-in-odoo>`_.
+
+- `Odoo Experience 2018 - Improve the Quality of Your Modules with Automated Tests <https://www.youtube.com/watch?v=jZddEWFdUcM>`_.
+
