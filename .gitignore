@@ -62,12 +62,13 @@ htmlcov/
 .cache
 nosetests.xml
 coverage.xml
+# coveragerc settings
 !.coveragerc
 
-# travis-ci.org
+# travis-ci.org settings
 !.travis.yml
 
-# coveralls.io reports
+# coveralls.io settings
 !.coveralls.yml
 
 # pre-commit hooks settings
