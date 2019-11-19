@@ -72,7 +72,7 @@ coverage.xml
 !.coveralls.yml
 
 # pre-commit hooks settings
-!.pre-commit-hooks.yaml
+!.pre-commit-config.yaml
 
 # Translations
 *.mo
