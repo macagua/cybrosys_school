@@ -1,5 +1,6 @@
 # dotfiles
 .*
+!.editorconfig
 !.gitignore
 !.isort.cfg
 !.mailmap
