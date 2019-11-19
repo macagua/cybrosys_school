@@ -1,6 +1,7 @@
 # dotfiles
 .*
 !.gitignore
+!.isort.cfg
 !.mailmap
 
 # hg stuff
