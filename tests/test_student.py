@@ -53,5 +53,4 @@ class TestStudent(common.TransactionCase):
         self.assertEqual(self.student1.level_education, 'primary')
 
         # Do a little print to show it visually for this demo - in production you don't really need this.
-        _logger.info('Your test was succesfull!')
-
+        _logger.info("Your 'TestStudent' test was successful!")

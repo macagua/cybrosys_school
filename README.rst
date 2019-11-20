@@ -72,12 +72,26 @@ School
 
 .. end-badges
 
+
 About
 =====
 
 School, is a Odoo 13 module that let you:
 
 - Manage Students Information.
+
+
+Features
+========
+
+This Odoo 13 module include the follow technical features included:
+
+- Data demonstration support.
+
+- Tests units support.
+
+- ACL customs support.
+
 
 Dependencies
 ============
