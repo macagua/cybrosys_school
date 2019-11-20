@@ -1,0 +1,373 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * cybrosys_school
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-20 15:39+0000\n"
+"PO-Revision-Date: 2019-11-20 11:45-0400\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
+"Language-Team: ES <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
+
+#. module: cybrosys_school
+#: model:ir.model.fields.selection,name:cybrosys_school.selection__school_student__student_blood_group__a+
+msgid "A+ve"
+msgstr "A+ve"
+
+#. module: cybrosys_school
+#: model:ir.model.fields.selection,name:cybrosys_school.selection__school_student__student_blood_group__a-
+msgid "A-ve"
+msgstr "A-ve"
+
+#. module: cybrosys_school
+#: model:ir.model.fields.selection,name:cybrosys_school.selection__school_student__student_blood_group__ab+
+msgid "AB+ve"
+msgstr "AB+ve"
+
+#. module: cybrosys_school
+#: model:ir.model.fields.selection,name:cybrosys_school.selection__school_student__student_blood_group__ab-
+msgid "AB-ve"
+msgstr "AB-ve"
+
+#. module: cybrosys_school
+#: model:ir.model.fields,field_description:cybrosys_school.field_school_student__message_needaction
+msgid "Action Needed"
+msgstr "Acción requerida"
+
+#. module: cybrosys_school
+#: model:ir.model.fields,field_description:cybrosys_school.field_sale_order__additional_note
+msgid "Additional Note"
+msgstr "Nota adicional"
+
+#. module: cybrosys_school
+#: model:ir.model.fields,field_description:cybrosys_school.field_school_student__age
+msgid "Age"
+msgstr "Edad"
+
+#. module: cybrosys_school
+#: model:ir.model.fields,field_description:cybrosys_school.field_school_student__message_attachment_count
+msgid "Attachment Count"
+msgstr "Conteo de archivos adjuntos"
+
+#. module: cybrosys_school
+#: model:ir.model.fields.selection,name:cybrosys_school.selection__school_student__student_blood_group__b+
+msgid "B+ve"
+msgstr "B+ve"
+
+#. module: cybrosys_school
+#: model:ir.model.fields.selection,name:cybrosys_school.selection__school_student__student_blood_group__b-
+msgid "B-ve"
+msgstr "B-ve"
+
+#. module: cybrosys_school
+#: model:ir.model.fields,field_description:cybrosys_school.field_school_student__student_blood_group
+#: model_terms:ir.ui.view,arch_db:cybrosys_school.student_search_view
+msgid "Blood Group"
+msgstr "Grupo sanguineo"
+
+#. module: cybrosys_school
+#: model_terms:ir.ui.view,arch_db:cybrosys_school.student_form_view
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: cybrosys_school
+#: model:ir.model.fields.selection,name:cybrosys_school.selection__school_student__state__cancel
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#. module: cybrosys_school
+#: model_terms:ir.actions.act_window,help:cybrosys_school.student_menu_action
+msgid "Create The First Student"
+msgstr "Cree el primer Estudiante"
+
+#. module: cybrosys_school
+#: model:ir.model.fields,field_description:cybrosys_school.field_school_student__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: cybrosys_school
+#: model:ir.model.fields,field_description:cybrosys_school.field_school_student__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: cybrosys_school
+#: model:ir.model.fields,field_description:cybrosys_school.field_school_student__student_dob
+msgid "Date of Birth"
+msgstr "Fecha de Nacimiento"
+
+#. module: cybrosys_school
+#: model:ir.model.fields,field_description:cybrosys_school.field_school_student__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: cybrosys_school
+#: model:ir.model.fields.selection,name:cybrosys_school.selection__school_student__state__done
+#: model_terms:ir.ui.view,arch_db:cybrosys_school.student_form_view
+msgid "Done"
+msgstr "Hecho"
+
+#. module: cybrosys_school
+#: model:ir.model.fields.selection,name:cybrosys_school.selection__school_student__state__draft
+msgid "Draft"
+msgstr "Borrador"
+
+#. module: cybrosys_school
+#: model:ir.model.fields.selection,name:cybrosys_school.selection__school_student__gender__female
+#: model_terms:ir.ui.view,arch_db:cybrosys_school.student_search_view
+msgid "Female"
+msgstr "Femenino"
+
+#. module: cybrosys_school
+#: model:ir.model.fields,field_description:cybrosys_school.field_school_student__message_follower_ids
+msgid "Followers"
+msgstr "Seguidores"
+
+#. module: cybrosys_school
+#: model:ir.model.fields,field_description:cybrosys_school.field_school_student__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Seguidores (Canales)"
+
+#. module: cybrosys_school
+#: model:ir.model.fields,field_description:cybrosys_school.field_school_student__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidores (Empresas)"
+
+#. module: cybrosys_school
+#: model:ir.model.fields,field_description:cybrosys_school.field_school_student__gender
+msgid "Gender"
+msgstr "Género"
+
+#. module: cybrosys_school
+#: model_terms:ir.ui.view,arch_db:cybrosys_school.student_search_view
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: cybrosys_school
+#: model:ir.model.fields,field_description:cybrosys_school.field_school_student__id
+msgid "ID"
+msgstr "ID"
+
+#. module: cybrosys_school
+#: model:ir.model.fields,help:cybrosys_school.field_school_student__message_needaction
+#: model:ir.model.fields,help:cybrosys_school.field_school_student__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "Si está marcado hay nuevos mensajes que requieren su atención."
+
+#. module: cybrosys_school
+#: model:ir.model.fields,help:cybrosys_school.field_school_student__message_has_error
+#: model:ir.model.fields,help:cybrosys_school.field_school_student__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Si se encuentra marcado, algunos mensajes tienen error de envío."
+
+#. module: cybrosys_school
+#: model:ir.model.fields,field_description:cybrosys_school.field_school_student__photo
+msgid "Image"
+msgstr "Imagen"
+
+#. module: cybrosys_school
+#: model:ir.model.fields,field_description:cybrosys_school.field_school_student__message_is_follower
+msgid "Is Follower"
+msgstr "Es un seguidor"
+
+#. module: cybrosys_school
+#: model:ir.model.fields.selection,name:cybrosys_school.selection__school_student__level_education__kinder_garden
+msgid "Kinder Garden"
+msgstr "Jardín de niños"
+
+#. module: cybrosys_school
+#: model:ir.model.fields,field_description:cybrosys_school.field_school_student____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: cybrosys_school
+#: model:ir.model.fields,field_description:cybrosys_school.field_school_student__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: cybrosys_school
+#: model:ir.model.fields,field_description:cybrosys_school.field_school_student__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: cybrosys_school
+#: model:ir.model.fields,field_description:cybrosys_school.field_school_student__level_education
+msgid "Level Education"
+msgstr "Nivel de Educación"
+
+#. module: cybrosys_school
+#: model:ir.model.fields,field_description:cybrosys_school.field_school_student__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Adjuntos principales"
+
+#. module: cybrosys_school
+#: model:ir.model.fields.selection,name:cybrosys_school.selection__school_student__gender__male
+#: model_terms:ir.ui.view,arch_db:cybrosys_school.student_search_view
+msgid "Male"
+msgstr "Masculino"
+
+#. module: cybrosys_school
+#: model:ir.model.fields,field_description:cybrosys_school.field_school_student__message_has_error
+msgid "Message Delivery error"
+msgstr "Error de Envío de Mensaje"
+
+#. module: cybrosys_school
+#: model:ir.model.fields,field_description:cybrosys_school.field_school_student__message_ids
+msgid "Messages"
+msgstr "Mensajes"
+
+#. module: cybrosys_school
+#: model:ir.model.fields,field_description:cybrosys_school.field_school_student__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: cybrosys_school
+#: model:ir.model.fields,field_description:cybrosys_school.field_school_student__nationality
+#: model_terms:ir.ui.view,arch_db:cybrosys_school.student_search_view
+msgid "Nationality"
+msgstr "Nacionalidad"
+
+#. module: cybrosys_school
+#: model:ir.model.fields,field_description:cybrosys_school.field_school_student__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Número de acciones"
+
+#. module: cybrosys_school
+#: model:ir.model.fields,field_description:cybrosys_school.field_school_student__message_has_error_counter
+msgid "Number of errors"
+msgstr "Numero de errores"
+
+#. module: cybrosys_school
+#: model:ir.model.fields,help:cybrosys_school.field_school_student__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Número de mensajes que requieren una acción"
+
+#. module: cybrosys_school
+#: model:ir.model.fields,help:cybrosys_school.field_school_student__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Número de mensajes con error de envío"
+
+#. module: cybrosys_school
+#: model:ir.model.fields,help:cybrosys_school.field_school_student__message_unread_counter
+msgid "Number of unread messages"
+msgstr "Número de mensajes no leidos"
+
+#. module: cybrosys_school
+#: model:ir.model.fields.selection,name:cybrosys_school.selection__school_student__student_blood_group__o+
+msgid "O+ve"
+msgstr "O+ve"
+
+#. module: cybrosys_school
+#: model:ir.model.fields.selection,name:cybrosys_school.selection__school_student__student_blood_group__o-
+msgid "O-ve"
+msgstr "O-ve"
+
+#. module: cybrosys_school
+#: model:ir.model.fields.selection,name:cybrosys_school.selection__school_student__gender__others
+#: model_terms:ir.ui.view,arch_db:cybrosys_school.student_search_view
+msgid "Others"
+msgstr "Otros"
+
+#. module: cybrosys_school
+#: model:ir.model.fields.selection,name:cybrosys_school.selection__school_student__level_education__primary
+msgid "Primary"
+msgstr "Primaria"
+
+#. module: cybrosys_school
+#: model:ir.model.fields.selection,name:cybrosys_school.selection__school_student__state__reset
+msgid "Reset"
+msgstr "Restablecer"
+
+#. module: cybrosys_school
+#: model_terms:ir.ui.view,arch_db:cybrosys_school.student_form_view
+msgid "Reset to Draft"
+msgstr "Cambiar a borrador"
+
+#. module: cybrosys_school
+#: model:ir.model.fields,field_description:cybrosys_school.field_school_student__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Error de entrega del SMS"
+
+#. module: cybrosys_school
+#: model:ir.model,name:cybrosys_school.model_sale_order
+msgid "Sales Order"
+msgstr "Pedido de venta"
+
+#. module: cybrosys_school
+#: model:ir.ui.menu,name:cybrosys_school.school_menu
+msgid "School"
+msgstr "Escuela"
+
+#. module: cybrosys_school
+#: model_terms:ir.ui.view,arch_db:cybrosys_school.student_search_view
+msgid "Search Student"
+msgstr "Buscar Estudiante"
+
+#. module: cybrosys_school
+#: model:ir.model.fields.selection,name:cybrosys_school.selection__school_student__level_education__secondary
+msgid "Secondary"
+msgstr "Secundaria"
+
+#. module: cybrosys_school
+#: model:ir.model.fields,field_description:cybrosys_school.field_school_student__state
+msgid "State"
+msgstr "Estado"
+
+#. module: cybrosys_school
+#: model_terms:ir.ui.view,arch_db:cybrosys_school.student_form_view
+msgid "Student"
+msgstr "Estudiante"
+
+#. module: cybrosys_school
+#: model:ir.model,name:cybrosys_school.model_school_student
+msgid "Student Record"
+msgstr "Registro de Estudiante"
+
+#. module: cybrosys_school
+#: model:ir.actions.act_window,name:cybrosys_school.student_menu_action
+#: model:ir.ui.menu,name:cybrosys_school.school_student_menu
+#: model_terms:ir.ui.view,arch_db:cybrosys_school.student_tree_view
+msgid "Students"
+msgstr "Estudiantes"
+
+#. module: cybrosys_school
+#: model_terms:ir.ui.view,arch_db:cybrosys_school.student_search_view
+msgid "Students with gender as Female"
+msgstr "Estudiantes con género como mujer"
+
+#. module: cybrosys_school
+#: model_terms:ir.ui.view,arch_db:cybrosys_school.student_search_view
+msgid "Students with gender as Male"
+msgstr "Estudiantes con género como hombre"
+
+#. module: cybrosys_school
+#: model_terms:ir.ui.view,arch_db:cybrosys_school.student_search_view
+msgid "Students with gender as Others"
+msgstr "Estudiantes con género como otros"
+
+#. module: cybrosys_school
+#: model:ir.model.fields,field_description:cybrosys_school.field_school_student__message_unread
+msgid "Unread Messages"
+msgstr "Mensajes sin leer"
+
+#. module: cybrosys_school
+#: model:ir.model.fields,field_description:cybrosys_school.field_school_student__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Contador de mensajes sin leer"
+
+#. module: cybrosys_school
+#: model:ir.model.fields,field_description:cybrosys_school.field_school_student__website_message_ids
+msgid "Website Messages"
+msgstr "Mensajes del sitio web"
+
+#. module: cybrosys_school
+#: model:ir.model.fields,help:cybrosys_school.field_school_student__website_message_ids
+msgid "Website communication history"
+msgstr "Historial de comunicaciones del sitio web"
