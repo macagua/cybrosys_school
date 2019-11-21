@@ -1,10 +1,5 @@
 # -*- coding: utf-8 -*-
 
-from odoo.tests import common
-
-
-# -*- coding: utf-8 -*-
-
 import logging
 from odoo.tests import common
 
