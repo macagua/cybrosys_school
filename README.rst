@@ -167,6 +167,11 @@ License
 References
 ==========
 
+The followings are the links using as references for development this Odoo 13 module:
+
+Development
+-----------
+
 - `How to Create a Module in Odoo 12 <https://www.cybrosys.com/blog/how-to-create-module-in-odoo12>`_.
 
 - `How to Create Module in Odoo v12 - Search View and Filters <https://www.cybrosys.com/blog/building-module-in-odoo-v12-defining-search-view-and-filters>`_.
@@ -179,7 +184,18 @@ References
 
 - `How to Define Header, Statusbar, and Buttons in Odoo v12 <https://www.cybrosys.com/blog/defining-header-statusbar-and-buttons-in-odoo-v12>`_.
 
+
+Quality assurance
+-----------------
+
 - `Automated testing in Odoo <https://www.surekhatech.com/blog/automated-testing-in-odoo>`_.
 
 - `Odoo Experience 2018 - Improve the Quality of Your Modules with Automated Tests <https://www.youtube.com/watch?v=jZddEWFdUcM>`_.
 
+
+Translations
+------------
+
+- `Language Translation in Odoo 12 <https://www.cybrosys.com/blog/language-translation-odoo-12>`_.
+
+- `How to load translations in Odoo <https://www.youtube.com/watch?v=ce5zMG7EGtE>`_.
