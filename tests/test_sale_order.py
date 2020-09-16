@@ -29,5 +29,4 @@ class TestSaleOrder(common.TransactionCase):
         # self.assertTrue(self.env['ir.model.fields'].search([('model', '=', 'additional_note')]))
         # _logger.info("The 'additional_note' is install at 'ir.model.fields'.")
 
-        # Do a little print to show it visually for this demo - in production you don't really need this.
         _logger.info("Your 'TestSaleOrder' test was successful!")
